@@ -6,7 +6,7 @@ import Card from '../components/Card.js';
 
 export default function NewPage() {
   const [Messages, setMessages] = useState([]);
-  const [Title, setMyTitle] = useState("Welcome to the United States!");
+  const [inputMessage, setMyInputMessage] = useState("")
 
   async function getdata() {
     const response = await fetch("https://dev.api.messageboard.aws.ellio.me/api/messages")
@@ -15,7 +15,6 @@ export default function NewPage() {
     const example_data = await example_response.json()
 
     setMessages(data.data)
-    setMyTitle(example_data.data.attributes.title)
 
   }
 
@@ -25,11 +24,15 @@ export default function NewPage() {
   }, []);
   return (
     <main className={styles.page}>
-      <h1 className={styles.title}>
-        {Title}
-      </h1>
-
       <span className={styles.container}>
+        <div className={styles.input_box}>
+          <form>
+            <textarea className={styles.input_message} placeholder={"Type your message..."} id="text" maxLength="280"></textarea>
+            <div>
+              <button className={styles.send_button}  >Send</button>
+            </div>
+          </form>
+        </div>
 
         {Messages.map((card) => <Card message={card.attributes.body} username={card.attributes.username}></Card>
         )}

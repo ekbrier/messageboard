@@ -9,8 +9,48 @@
   
   }
 
-.body {
-  color: white;
+  .input_box{
+    color: white;
+    height: 100%;
+    padding: 30px;
+    text-align: center;
+
+
+    
+  }
+  .input_message{
+    color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid #BBBAF7;
+    border-radius: 10px;
+    width: 855px;
+    height:100px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    resize: none;
+    
+
+
+  }
+
+  .send_button{
+    background: #8CAAF7;
+    color: rgba(255, 255, 255, 0.727);
+    border-radius: 6px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+    cursor: pointer;
+
+
+  }
+
+  .body {
+    color: white;
   text-align: center;
 
 }
