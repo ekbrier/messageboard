@@ -7,14 +7,6 @@ import { useState } from 'react';
 export default function Home() { 
   return (
     <div className={styles.container}>
-     
-  
-
-      
-
-      <footer className={styles.footer}>
-          Made by <span className={styles.ellie}> Elliot & Ellie </span> 
-      </footer>
-    </div>
+  </div>
   )
 }

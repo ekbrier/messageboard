@@ -6,7 +6,14 @@ const Layout = (props) => {
             <Nav />
             <main> 
                 {props.children} </main> 
+            <footer className={styles.footer}>
+          Made by <span className={styles.ellie}> Elliot & Ellie </span> 
+      </footer>
         </div>
+
+
+
+
     )
 }
 

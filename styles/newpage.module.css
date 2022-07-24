@@ -1,11 +1,28 @@
 .title {
     margin: 0;
     line-height: 1.15;
-    font-size: 4rem;
-    color: black;
+    font-size: 50px;
+    color: white;
     text-align: center;
+    margin: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
   }
 
-  .paragraph {
+.body {
+  color: white;
+  text-align: center;
+
+}
+
+.paragraph {
     text-align: center;
-  }
+  
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+}

@@ -1,19 +1,33 @@
-.container{
+.card {
+    background-color:#FFFFFF1F;
+    border-radius: 10px;
+    color: white;
+    width: 855px;
+    left: 329px;
+    top: 94px; 
+    margin-bottom: 15px;
+    padding: 15px;
 
 }
 
-.card{
+.postedBy {
+    color: #BBBAF7;
+    text-transform: capitalize;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
 
 }
 
-.username{
-
-}
-
-.message{
-
-}
-
-.footer{
+.username {
+    color: white;
+    margin-left: 5px;
     
+}
+
+.timestamp {
+    color: white;
+    font-size: 14px;
+    text-align: right;
+    margin-left: 665px;
+
 }

@@ -1,5 +1,6 @@
 .container{
     padding: 1rem;
+    border-bottom: 1px solid #eaeaea92;
 
 }
 .title{
@@ -7,6 +8,5 @@
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 22px;
 
 }
