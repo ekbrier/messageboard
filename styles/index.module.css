@@ -22,7 +22,7 @@
     color: white;
     padding: 30px;
     box-sizing: border-box;
-    border: 1px solid #BBBAF7;
+    border: 1px solid #bbbaf7e2;
     border-radius: 10px;
     width: 855px;
     height:100px;
@@ -39,8 +39,8 @@
   }
 
   .send_button{
-    background: #8CAAF7;
-    color: rgba(255, 255, 255, 0.727);
+    background: #5582f5;
+    color: rgb(255, 255, 255);
     border-radius: 6px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     float: right;

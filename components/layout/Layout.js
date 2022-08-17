@@ -7,7 +7,8 @@ const Layout = (props) => {
             <main> 
                 {props.children} </main> 
             <footer className={styles.footer}>
-          Made by <span className={styles.ellie}> Elliot & Ellie </span> 
+          Made by 
+          <a href="https://github.com/ekbrier" className={styles.ellie}> ekbrier </a> 
       </footer>
         </div>
 
